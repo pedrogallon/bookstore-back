@@ -7,9 +7,6 @@ export default {
 
     async create(req: Request, res: Response) {
 
-        console.log(req.body);
-
-
         const {
             name,
             author,
